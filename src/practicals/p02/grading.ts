@@ -3,7 +3,10 @@ if (input === undefined){
     console.log("Invalid input")
 }
 let score: number;
-if (input >= 80){
+if (input >= 101){
+    console.log("Invalid input")
+}
+else if (input >= 80){
     console.log("Grade is A")
 }
 else if (input >= 70){
