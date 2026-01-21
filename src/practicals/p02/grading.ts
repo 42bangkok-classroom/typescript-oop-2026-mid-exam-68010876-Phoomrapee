@@ -13,7 +13,10 @@ if (input >= 60){
     }
 if (input >= 50){
         console.log("Grade is D")
-    }
-    else {
+    } 
+if (input >= 0) {
         console.log("Grade is F")
     }
+else {
+    console.log("Invalid input")
+}
